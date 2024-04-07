@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main {
+  height: 644px;
+  background-position: center center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 10vw);
+  background: url(assets/images/bg2.jpg);
+}
+
+.main .box {
+  height: 644px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0.69;
+  background-color: black;
+}
+
+nav {
+  justify-content: space-between;
+  margin: auto;
+  max-width: 60vw;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+nav img {
+  width: 130px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  height: calc(100% - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", "Roboto" , "Ubuntu" , sans-serif;
+;
+  gap: 23px;
+  padding:0 30px;
+}
+
+.hero> :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-size: 24px;
+    font-weight: 400px;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-size: 20px;
+    font-weight: 400px;
+    text-align: center;
+}
+
+.line{
+    height: 7px;
+    background-color: rgb(56, 55, 55);
+    z-index: 20;
+    position: relative;
+}
+
+.btn-red{
+  padding:8px 8px;
+  background-color: red;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor:pointer;
+}
+
+.btn{
+  padding:8px 8px;
+  width:300px;
+  background-color: rgba(127,127,127,0.2);
+  color:white;
+  border-radius: 4px;
+  cursor:pointer;
+  font-size: 18px;
+  height: 20px;
+}
+
+.btn-eng{
+  padding: 8px 8px;
+  background-color: rgba(127,127,127,0.2);
+  font-size: 20px;
+  color:white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor:pointer;
+}
+
+.hero-btn{
+  padding: 11px 11px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.first{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color:antiquewhite;
+  max-width:70vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.secImg img{
+  position: relative;
+  width: 555px;;
+  z-index: 10;
+}
+
+.secImg{
+  position: relative;
+}
+
+.secImg video{
+  position: absolute;
+  top: 75px;
+  right: 11px;
+  width:471px;
+}
+
+section.first>div{
+  display: flex;
+  flex-direction: column;
+  padding:34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+}
+
